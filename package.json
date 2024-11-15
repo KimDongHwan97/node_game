@@ -2,10 +2,22 @@
     "name": "rogue_like_javascript",
     "version": "1.0.0",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "chcp 65001 && node server.js",
+        "dev": "chcp 65001 && nodemon server.js"
     },
     "author": "",
     "license": "ISC",
-    "description": "",
-    "type": "module" 
-  }
+    "description": "<!-- # node_game\r 주제: 삼국지의 오관육참장\r 주인공: 관우\r 제1관 동령관(공수): 조조의 적인 원소의 하북 땅으로 가는 것을 구실로 삼아 증명서를 요구\r 제2관 낙양(한복, 맹탄): 조조의 적인 원소의 하북 땅으로 가는 것을 구실로 삼아 증명서를 요구\r 제3관 사수관(변희): 진국사라는 절 안으로 유인해 자객을 불러 죽이려는 음모를 꾸미고 있었지만 진국사에서 관우와 같은 고향 사람이었던 스님 보정에 의해 변희의 음모는 관우에게 발각\r 제4관 형양(왕식): 관우를 죽이려는 음모를 꾸며 관우를 크게 환대하는 척하며 역관에 머물게 한다.\r 제5관 활주관(진기): 조조의 적인 원소의 하북 땅으로 가는 것을 구실로 삼아 증명서를 요구",
+    "type": "module",
+    "main": "game.js",
+    "keywords": [],
+    "dependencies": {
+        "chalk": "^5.3.0",
+        "figlet": "^1.8.0",
+        "readline-sync": "^1.4.10"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.7"
+    }
+}
